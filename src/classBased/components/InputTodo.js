@@ -1,29 +1,37 @@
-import React, { Component } from "react"
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/state-in-constructor */
+/* eslint-disable react/no-unused-state */
+import React, { Component } from 'react';
 
 class InputTodo extends Component {
   state = {
-    fName: "",
-    lastName: "",
+    fName: '',
+    lastName: '',
   }
-  onChange = e => {
+
+  onChange = (e) => {
     this.setState({
       [e.target.name]: e.target.value,
-    })
+    });
   }
-  handleSubmit = e => {
-    e.preventDefault()
+
+  handleSubmit = (e) => {
+    e.preventDefault();
     if (this.state.title.trim()) {
-      this.props.addTodoProps(this.state.title)
+      this.props.addTodoProps(this.state.title);
       this.setState({
-        title: "",
-      })
+        title: '',
+      });
     } else {
-      alert("Please write item")
+      alert('Please write item');
     }
   }
+
   render() {
     return (
-        <form onSubmit={this.handleSubmit} className="form-container">
+      <form onSubmit={this.handleSubmit} className="form-container">
         <input
           type="text"
           className="input-text"
@@ -34,7 +42,7 @@ class InputTodo extends Component {
         />
         <button className="input-submit">Submit</button>
       </form>
-    )
+    );
   }
 }
-export default InputTodo
+export default InputTodo;

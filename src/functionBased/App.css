@@ -69,8 +69,6 @@ body {
   text-decoration: underline;
 }
 
-/* sidebar Nav */
-
 .navBar {
   position: relative;
 }
@@ -81,7 +79,6 @@ body {
   top: 40px;
   z-index: 10;
   cursor: pointer;
-  /* addition */
   background: transparent;
   border: none;
   outline: none;
