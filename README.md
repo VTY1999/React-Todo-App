@@ -1,73 +1,35 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## React Tutorial from Scratch– A Step-by-Step Guide (2021 Update)
 
-# Project Name
+This repo holds all the code for a React todos application. You can follow the step by step [guide to building the awesome project here](https://ibaslogic.com/react-tutorial-for-beginners/).
 
-> Description the project.
+## [Click to See the Todos App](https://ibaslogic.github.io/react-todo-project/)
 
+The code is available in the `src` folder. In there, you’ll see two folders named `classBased` and `functionBased` holding the class component and function component code respectively.
 
-## Built With
+### Clone the project
 
-- Major languages
-- Frameworks
-- Technologies used
+You can download or clone this project by running this command from your terminal:
 
-## Live Demo (if available)
+```
+git clone https://github.com/Ibaslogic/react-todo-app
+```
 
-[Live Demo Link](https://livedemo.com)
+This will create a directory in the name of the project folder.
 
+Once you have the project files and folders bootstrapped, open it with your text editor.
 
-## Getting Started
+Next, switch inside the project directory and run:
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+```
+npm install
+```
 
+This will install all the necessary dependencies in the local `node_modules` folder.
 
-To get a local copy up and running follow these simple example steps.
+Finally, start your development server by running:
 
-### Prerequisites
+```
+npm start
+```
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+You should see the app in your browser address bar at [http://localhost:3000](http://localhost:3000)
